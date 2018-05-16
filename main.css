@@ -1,4 +1,53 @@
-h1 {
+body {
   font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+}
+h1 {
   font-weight: 700;
+}
+p {
+  padding-bottom: .5rem;
+}
+
+.red {
+  color: #AE3433;
+}
+.blue {
+  color: #16A0D5;
+}
+.contents h1 {
+  font-size: 25px;
+}
+.contents ul li:nth-child(even) {
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+}
+
+.page h1 {
+  font-size: 27px;
+  font-weight: 700;
+}
+.page h2 {
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: .5rem;
+}
+.page .superscript {
+
+}
+.page .notes {
+  font-size: 12px;
+}
+.page .music li:nth-child(even) {
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.footer {
+  background-color: #ffffff;
+  font-size: 14px;
 }
