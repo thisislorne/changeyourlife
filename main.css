@@ -26,9 +26,10 @@ a {
 .contents h1 {
   font-size: 25px;
 }
-.contents ul li:nth-child(even) {
+.page .contents li:nth-child(even) {
   padding-left: 1rem;
   padding-bottom: .5rem;
+  font-style: italic;
 }
 
 .page h1 {
@@ -50,6 +51,7 @@ a {
 .page .music li:nth-child(even) {
   padding-left: 1rem;
   padding-bottom: .8rem;
+  font-style: italic;
 }
 
 .strike {
