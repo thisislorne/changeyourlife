@@ -1,12 +1,20 @@
 body {
   font-family: 'Libre Baskerville', serif;
   font-size: 18px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   font-weight: 700;
 }
 p {
   padding-bottom: .5rem;
+}
+
+a {
+  color: #4a4a4a;
+  text-decoration: underline;
 }
 
 .red {
@@ -24,13 +32,13 @@ p {
 }
 
 .page h1 {
-  font-size: 27px;
+  font-size: 28px;
   font-weight: 700;
 }
 .page h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
-  padding-bottom: .5rem;
+  padding-bottom: 1.2rem;
 }
 .page .superscript {
 
@@ -40,7 +48,7 @@ p {
 }
 .page .music li:nth-child(even) {
   padding-left: 1rem;
-  padding-bottom: .5rem;
+  padding-bottom: .8rem;
 }
 
 .strike {
@@ -50,4 +58,8 @@ p {
 .footer {
   background-color: #ffffff;
   font-size: 14px;
+}
+
+.footer a {
+  text-decoration: none;
 }
