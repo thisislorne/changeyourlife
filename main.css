@@ -47,6 +47,9 @@ a {
   border-radius: 0px;
 }
 
+.contain {
+  padding-left: 10px;
+}
 
 .red {
   color: #AE3433;
