@@ -143,9 +143,11 @@ a {
   font-size: 14px;
   ul {
     list-style-type: none;
+    margin-bottom: 1rem;
+    padding-left: 0;
   }
   p {
-    padding: 1rem 0;
+    margin-bottom: 0;
   }
   a {
     text-decoration: none;
@@ -209,5 +211,10 @@ a {
   .right-blur {
     padding-left: 10% !important;
     padding-right: 10% !important;
+  }
+  .footer {
+    .col-12 {
+      padding-left: 10%;
+    }
   }
 }

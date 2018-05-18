@@ -14,21 +14,23 @@ $(document).ready(function() {
 
   $(".right-blur").click(function() {
     $(".right-blur").removeClass("blue-blur");
-    $(".left-blur").addClass("red-blur");    
+    $(".right-blur").find('a[href*="#"]').removeClass("disabled");
+    $(".left-blur").addClass("red-blur");
+    $(".left-blur").find('a[href*="#"]').addClass("disabled");
   });
 
   $(".left-blur").click(function() {
     $(".left-blur").removeClass("red-blur");
+    $(".left-blur").find('a[href*="#"]').removeClass("disabled");
     $(".right-blur").addClass("blue-blur");
+    $(".right-blur").find('a[href*="#"]').addClass("disabled");
   });
-
-
-
 
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
+    .not('.disabled')
     .click(function(event) {
       // On-page links
       if (
